@@ -32,7 +32,7 @@ const Wrapper = styled(Box)`
 
 const LoginButton = styled(Button)`
     text-transform: none;
-    background: #FB641B;
+    background: ##1b57fb;
     color: #fff;
     height: 48px;
     border-radius: 2px;
@@ -80,7 +80,7 @@ const Login = ({ isUserAuthenticated }) => {
     const navigate = useNavigate();
     const { setAccount } = useContext(DataContext);
 
-    const imageURL = 'https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png';
+    const imageURL = 'https://upload.wikimedia.org/wikipedia/en/b/b0/Indian_Institute_of_Technology_%28Indian_School_of_Mines%29%2C_Dhanbad_Logo.png';
 
     useEffect(() => {
         showError(false);
